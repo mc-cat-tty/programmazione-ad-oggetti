@@ -30,3 +30,25 @@ Compiti del programmatore sono minimizzare la "distanza di astrazione" (sforzo c
 - difficoltà modifica
 - impossibile protezione variabili
 - modifica funzioni e inconsistenza con le ds
+
+Vedi _Code Complete_ di Steve McConnell.
+
+"Cleanroom development" &rarr; metodologia di sviluppo verso la riduzione degli errori nel codice
+
+Suddividendo un progetto in moduli evito che l'errata manipolazione di un variabile, per esempio, si propaghi in tutto il progetto. In questo caso l'errore si propagherà solamente all'interno del modulo. Ancor meglio nel caso della programmazione ad oggetti, in cui i costrutti del linguaggio e il compilatore mi permettono di *incapsulare* attributi (dati) e metodi (operazioni, funzioni) all'interno di uno stesso oggetto.
+
+## Vantaggi dell'astrazione di dato
+- agevola la *modularità* incapsulando dati e funzioni che lavorano su essi
+- favorisce l'*integrità* attraverso la verifica di plausibilità dei dati e la protezione degli attributi privati
+- creazione di componenti autonomi
+- diminuisce la *distanza* tra l'oggetto astratto e quello concreto
+
+ADT - Abstract Data Type
+
+## Classi di variabili in C
+- auto
+- register
+- static
+- extern
+
+Potremmo implementare un ADC in c utilizzando una variabile privata (statica) all'interno di un modulo e definendo una serie di funzioni che accedono a questo dato. 
