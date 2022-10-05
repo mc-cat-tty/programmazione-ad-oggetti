@@ -36,9 +36,3 @@ A = (Type2) B;
 Il cast non trasforma il tipo delle variabili, ma le reinterpreta. Potrebbe portare alla perdita di informazione se si passa da una risoluzione maggiore ad una inferiore.
 
 > attento alle divisioni tra letterali
-
-## Operatori aritmetici
-- soliti
-- %
-- ++
-- \-\-
