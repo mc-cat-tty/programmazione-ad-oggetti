@@ -32,7 +32,7 @@ p1.equals(p2);  // true se contenuto è lo stesso, indipendentemente dal riferim
 ```
 
 ## Garbage collector
-Componente della JVM che libera memotia re non è più accessibile; per esempio nel caso in cui si perdano tutti i riferimenti ad essa.
+Componente della JVM che libera memoria se non è più accessibile; per esempio nel caso in cui si perdano tutti i riferimenti ad essa.
 
 È possibile forzare un "delete" dell'area di memoria occupata da un oggetto con:
 ```java
