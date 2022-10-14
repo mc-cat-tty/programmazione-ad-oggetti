@@ -1,5 +1,3 @@
-
-
 public class MainTester {
   public static void main(String[] args) {
     Libro libri[] = new Libro[3];

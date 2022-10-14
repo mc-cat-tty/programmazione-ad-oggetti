@@ -1,5 +1,3 @@
-
-
 public class Libro {
   private String autore;
   private String titolo;
