@@ -15,3 +15,5 @@ Servizi:
 
 ## Improvements
 Usare `ArrayList` al posto di un array dinamico con costo lineare ammortizzato.
+
+Vedi: _type erasure_
