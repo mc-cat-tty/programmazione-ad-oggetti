@@ -3,7 +3,7 @@ public class MainTester {
     ContoCorrente cc = new ContoCorrente(1234, -50);
 
     cc.printTransactionHistory();
-    System.out.println("Balance: "+cc.getCurrentBalance());
+    System.out.println("Balance: " + cc.getCurrentBalance());
 
     cc.withdrawal(50);
     cc.withdrawal(100);
@@ -12,6 +12,6 @@ public class MainTester {
     cc.deposit(500);
 
     cc.printTransactionHistory();
-    System.out.println("Balance: "+cc.getCurrentBalance());
+    System.out.println("Balance: " + cc.getCurrentBalance());
   }
 }

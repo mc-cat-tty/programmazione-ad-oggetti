@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ContoCorrente {
-  private final int TRANSACTION_HISTORY_DEF_DIM = 2;
+  private static final int TRANSACTION_HISTORY_DEF_DIM = 2;
   private int accountId;
   private int currentBalance;
   private int[] transactionHistory;
@@ -11,7 +11,6 @@ public class ContoCorrente {
     this.accountId = accountId;
     this.currentBalance = currentBalance;
     this.transactionHistory = new int[TRANSACTION_HISTORY_DEF_DIM];
-    this.transactitonCounter = 0;
   }
 
   public int getAccountId() {

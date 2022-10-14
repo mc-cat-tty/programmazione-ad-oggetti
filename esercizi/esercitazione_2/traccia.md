@@ -13,3 +13,5 @@ Servizi:
  - getter saldo
  - stampa dello storico operazioni
 
+## Improvements
+Usare `ArrayList` al posto di un array dinamico con costo lineare ammortizzato.
