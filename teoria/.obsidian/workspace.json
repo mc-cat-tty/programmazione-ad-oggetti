@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "a8aecf2d490e78ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e81ef027952be3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f2fe1b7c7a52054",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12_objects_under_the_hood.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ab9319e8bf30f1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "12c029270348e5e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4572b50cffa63c0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "125348cf711c3868",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91d39fa40a8f13b6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5147db1eebc3aff9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd3f131ebfa33482",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26d07be53326d13a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "12_objects_under_the_hood.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "36be4f4f5245cee4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "12_objects_under_the_hood.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "581818e4ea6260aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44882a0b612df4eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "12_objects_under_the_hood.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "44882a0b612df4eb",
+  "lastOpenFiles": [
+    "2022-10-19.md",
+    "2_vantaggi_oop.md",
+    "java_naming_convention.png",
+    "1_intro.md"
+  ]
+}
