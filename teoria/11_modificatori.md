@@ -1,5 +1,8 @@
 # Keywords in Java
 
+## Knowledge Links
+[[10_package]] [[6_opertori_e_costrutti]] [[5_variabili]]
+
 ## Variabili di classe
 Le variabili di classe sono visibili (condivise) da tutti gli oggetti della stessa classe. Vengono definite attraverso il modificatore `static`.
 

@@ -1,5 +1,8 @@
 # Objects under the hood
 
+## Knwoledge Links
+[[12_objects_under_the_hood]] [[8_array_e_stringhe]] [[5_variabili]] [[4_java]]
+
 ## Riferimenti
 Supponendo `p1` e `p2` riferimenti ad un oggetto, l'assegnamento `p1 = p2` copia in riferimento contenuto in p2 all'interno di p1.
 
@@ -40,7 +43,7 @@ Contatore c = new Contatore();
 c = null;
 ```
 
-## this
+## This
 `this` &larr; keyword che indica l'oggetto stesso.
 
 Serve per:

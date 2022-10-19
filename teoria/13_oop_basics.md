@@ -1,5 +1,8 @@
 # OOP Basics
 
+## Knowledge Links
+[[11_modificatori]] [[10_package]] [[3_oop_concetti]]
+
 ## Incapsulamento
 All'interno di una classe Java si trovano metodi, variabili e possono trovarsi altre classe (**nested class** o **inner class**).
 
@@ -69,4 +72,3 @@ Non è possibile risalire al nonno con la notazione super.
 `@Override` indica al compilatore che voglio fare l'override di un metodo (mi segnala se il metodo non esiste nella classe base).
 
 Grazie alla redifinizione dei metodi riesco a raggiungere il polimorfismo.
-
