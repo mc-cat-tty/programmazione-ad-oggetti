@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "190ecab5664850ea",
+        "id": "1c15cc080195fe3e",
         "type": "tabs",
         "children": [
           {
-            "id": "05e1ee0c20b69ae6",
+            "id": "38b3a40d67c6d9ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "teoria/15_eccezioni.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "teoria/15_eccezioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "teoria/15_eccezioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,19 +124,31 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "teoria/15_eccezioni.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "05e1ee0c20b69ae6",
-  "lastOpenFiles": []
+  "active": "38b3a40d67c6d9ba",
+  "lastOpenFiles": [
+    "teoria/java_naming_convention.png",
+    "teoria/14_polimorfismo.md",
+    "teoria/15_eccezioni.md",
+    "teoria/1_intro.md",
+    "teoria/12_objects_under_the_hood.md",
+    "teoria/11_modificatori.md",
+    "teoria/13_oop_basics.md",
+    "teoria/6_opertori_e_costrutti.md",
+    "teoria/7_boilerplate.md"
+  ]
 }

@@ -8,9 +8,3 @@ Per eseguire il bytecode è necessario chiamare l'interprete con `java nomeclass
 
 ## Stampa su terminale
 `System.out.println("test")`
-
-[](../esercizi/HelloWorld.javawriteFourBytes
-writeFourBytes
-writeEightBytes
-writeEightBytes
-writeFourBytes)
