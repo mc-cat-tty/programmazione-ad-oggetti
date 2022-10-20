@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "a8aecf2d490e78ca",
+    "id": "12c66c6deb4c9b94",
     "type": "split",
     "children": [
       {
-        "id": "801a2ec4a7b79a5b",
+        "id": "190ecab5664850ea",
         "type": "tabs",
         "children": [
           {
-            "id": "9eaceac4acf4aacd",
+            "id": "05e1ee0c20b69ae6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7ab9319e8bf30f1a",
+    "id": "2e8438066f03ea2a",
     "type": "split",
     "children": [
       {
-        "id": "12c029270348e5e9",
+        "id": "80640614bddf1945",
         "type": "tabs",
         "children": [
           {
-            "id": "4572b50cffa63c0b",
+            "id": "b93f504320817d84",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "125348cf711c3868",
+            "id": "dd2f2a03b26ef81a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "91d39fa40a8f13b6",
+            "id": "3d9bafdf63a17003",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -68,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "5147db1eebc3aff9",
+    "id": "6efbd41509ba9c6d",
     "type": "split",
     "children": [
       {
-        "id": "cd3f131ebfa33482",
+        "id": "b209e37b48d2c9f7",
         "type": "tabs",
         "children": [
           {
-            "id": "26d07be53326d13a",
+            "id": "2e9d42fa58c22e04",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "36be4f4f5245cee4",
+            "id": "3fe7359e7c13f6d2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "581818e4ea6260aa",
+            "id": "80c5087b59df1f08",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,42 +114,23 @@
             }
           },
           {
-            "id": "44882a0b612df4eb",
+            "id": "8d4c8bc4b1aab8eb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
             }
-          },
-          {
-            "id": "33282086508f8167",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9eaceac4acf4aacd",
-  "lastOpenFiles": [
-    "14_polimorfismo.md",
-    "java_naming_convention.png",
-    "10_package.md",
-    "8_array_e_stringhe.md",
-    "7_boilerplate.md",
-    "6_opertori_e_costrutti.md",
-    "11_modificatori.md",
-    "12_objects_under_the_hood.md",
-    "9_documentazione.md",
-    "13_oop_basics.md"
-  ]
+  "active": "05e1ee0c20b69ae6",
+  "lastOpenFiles": []
 }
