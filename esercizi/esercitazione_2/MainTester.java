@@ -1,3 +1,5 @@
+package esercizi.esercitazione_2;
+
 public class MainTester {
   public static void main(String[] args) {
     ContoCorrente cc = new ContoCorrente(1234, -50);

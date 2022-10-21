@@ -1,3 +1,5 @@
+package esercizi.esercitazione_2;
+
 import java.util.Arrays;
 
 public class ContoCorrente {

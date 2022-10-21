@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c15cc080195fe3e",
+        "id": "46680fb03871dc68",
         "type": "tabs",
         "children": [
           {
-            "id": "38b3a40d67c6d9ba",
+            "id": "327f3b89e11585b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoria/15_eccezioni.md",
+                "file": "esercizi/esercitazione_3/traccia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoria/15_eccezioni.md",
+                "file": "esercizi/esercitazione_3/traccia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoria/15_eccezioni.md",
+                "file": "esercizi/esercitazione_3/traccia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoria/15_eccezioni.md"
+                "file": "esercizi/esercitazione_3/traccia.md"
               }
             }
           }
@@ -139,11 +139,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "38b3a40d67c6d9ba",
+  "active": "327f3b89e11585b0",
   "lastOpenFiles": [
+    "esercizi/esercitazione_3/traccia.md",
+    "teoria/15_eccezioni.md",
     "teoria/java_naming_convention.png",
     "teoria/14_polimorfismo.md",
-    "teoria/15_eccezioni.md",
     "teoria/1_intro.md",
     "teoria/12_objects_under_the_hood.md",
     "teoria/11_modificatori.md",
