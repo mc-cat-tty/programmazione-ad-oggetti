@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "46680fb03871dc68",
+        "id": "df8d9f2864905273",
         "type": "tabs",
         "children": [
           {
-            "id": "327f3b89e11585b0",
+            "id": "26d683c487b0aef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "esercizi/esercitazione_3/traccia.md",
+                "file": "teoria/16_io_formattato.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6efbd41509ba9c6d",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esercizi/esercitazione_3/traccia.md",
+                "file": "teoria/16_io_formattato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esercizi/esercitazione_3/traccia.md",
+                "file": "teoria/16_io_formattato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "esercizi/esercitazione_3/traccia.md"
+                "file": "teoria/16_io_formattato.md"
               }
             }
           }
@@ -139,7 +140,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "327f3b89e11585b0",
+  "active": "26d683c487b0aef7",
   "lastOpenFiles": [
     "esercizi/esercitazione_3/traccia.md",
     "teoria/15_eccezioni.md",
