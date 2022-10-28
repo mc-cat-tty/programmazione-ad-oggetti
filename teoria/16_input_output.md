@@ -122,3 +122,131 @@ Scrive i dati verso un `File` o un `FileDescriptor`
 - `DataOutputStream` per scrivere in binario i tipi primitivi
 - `BufferedOutputStream` per la scrittura bufferizzata
 
+# Serializzazione
+Si usano filtri `ObjectInputStream` con metodo `readObject()` e `ObjectOutputStream()` con `writeObject()`
+
+Chiamando `writeObject()` la serializzazione può essere ricorsiva, se in un oggetto viene mantenuto un riferimetno ad un'altro oggetto. La **serializzazione ricorsiva** viene chiamata anche serializzazione in profondità (**deep**).
+
+Serializzare un oggetto può quindi comportare la serializzazione di un interno grafo di oggetti. Nel caso di cicli non viene serializzato due volte lo stesso oggetto, ma in modo intelligente viene aggiunto solamente il riferimento ad esso.
+
+Gli oggetti serializzabili devono implementare l'interfaccia `Serializable`.
+
+Esempio scrittura:
+```java
+ObjectOutputStream os = null;
+try {
+	os = new ObjectOutputStream(file);
+	os.writeObject(obj);
+	os.flush();
+	os.close();
+}
+catch (IOException e) {
+	System.exit(2);
+}
+```
+
+Esempio lettura:
+```java
+List x = (List)(is.readObject());
+```
+
+I campi **transienti**, etichettati con la parola chiave `transient`,  non verranno serializzati.
+
+# Reader e Writer
+La lettura di un carattere avviene attraverso il metodo `read()` che restituisce un intero di 4 byte, dove un valore tra 0 e 65535 rappresenta una buona lettura di un carattere, mentre -1 ci indica che lo stream è finito.
+
+Esempio:
+```java
+int i;
+char c;
+i = in.read();
+if (i != -1) {
+	c = (char) i;
+}
+```
+
+Il metodo `ready()` ci indica se lo stream ha caratteri pronti da essere letti.
+
+## CharArrayReader
+Equivalente di `ByteArrayInoutStream`, ma prende in ingresso un array di caratteri.
+
+## InputStreamReader
+È un caso particolare di reader che **reinterpreta** un `InputStream` come stream di caratteri (converte byte in caratteri) UTF-16.
+
+### FileReader
+Sottoclasse di `InputStreamReader` che legge caratteri da un file.
+
+## BufferedReader
+Come `BufferedInputStream` ma con i caratteri al posto dei byte (memorizzazione su buffer dei caratteri in ingresso).
+
+Mette a disposizione il metodo `readLine()` che permette di leggere una riga di caratteri alla volta. È platform-dependent, quindi parsa correttamente il fine riga in base alla piattaforma su cui ci troviamo.
+
+## FilterReader
+È una classe astratta, senza metodi astratti. Non può essere istanziata.
+
+## OutputStreamWriter
+Conversione stream di byte in caratteri.
+## FileWriter
+Per scrivere caratteri su file.
+## BufferedWriter
+Aggiunge un buffer prima dello stream di caratteri.
+Definisce il metodo `newLine()`, anch'esso platform-dependent.
+## FilterWriter
+Classe astratta capostipite dei filtri in scrittura.
+
+# System
+`System.in` e `System.out` sono effettivamente stream di caratteri; dovrebbero quindi appartenere alla classe `Reader` e `Writer`. In realtà sono definiti come `InputStream` e `PrintStream`, sottoclasse di `OutputStream`.
+È stato fatto questo per mantere la compatibilità con Java 1.0, in cui `Reader` e `Writer` non esistevano.
+
+```java
+BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+try {
+	Integer.parseInt(r.readLine());
+}
+catch (...) {
+	...
+}
+```
+
+Per convertire tipi primitivi in stringa, si usano:
+- `Float.toString(f)`
+- `Integer.toString(i)`
+- ecc.
+
+Attenzione: se il file che si cerca di aprire con `FileWriter` e `FileReader` un file che non esiste, esso viene creato. Una delle poche occasioni in cui questo non avviene, è quella in cui non si hanno i permessi di scrittura su una cartella.
+
+Lo svantaggio della scrittura a caratteri è l'occupazione in termini di spazio: per salvare un numero a più cifre ho bisogno di più caratteri a 16 bit (uno per rappresentare ogni cifra); in più quando leggo una sequenza di caratteri che rappresentano interi, non so come tokenizzarli.
+
+### Ciclo di lettura
+```java
+while (in.ready()) {
+	// lettura
+}
+```
+
+# Creazione classi filtro
+Per creare una nuova classe filtro che manipoli dati, si:
+- eredita da `FilterReader`
+- prende in ingresso un generico `Reader`
+
+Cosa implementare (dato che `Reader` è generico)?
+- `public void close() throws IOException` -> conviene delegarlo a `reader.close()`
+- `public int read(char b[], int off, int len)` -> si può delegare a `reader.read(b, off, len)`
+
+# Scanner
+Da Java 5 esiste la classe `Scanner` che permette di tokenizare una sorgente per convertire i token in tipi primitivi.
+Esempio:
+```java
+Scanner s = new Scanner(System.in);
+while (s.hasNext()) {
+	// uso il token con s.next()
+}
+```
+
+I metodi chiamabili sono:
+- `nextInt()`
+- `nextFloat()`
+- ecc.
+
+A differenza di `BufferedReader` vengono letti token e non righe.
+Un'altra opzione a `Scanner` è `StreamTokenizer`, presente da Java 1.0
