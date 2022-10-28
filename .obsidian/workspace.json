@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cdf456bcc58591fd",
+        "id": "3b1e162dc693baf5",
         "type": "tabs",
         "children": [
           {
-            "id": "682bb935a6994bff",
+            "id": "3315409697e67f82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "esercizi/esercitazione_4/traccia.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6efbd41509ba9c6d",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "esercizi/esercitazione_4/traccia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "esercizi/esercitazione_4/traccia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "esercizi/esercitazione_4/traccia.md"
+              }
             }
           }
         ],
@@ -128,9 +137,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "682bb935a6994bff",
+  "active": "3315409697e67f82",
   "lastOpenFiles": [
     "teoria/16_input_output.md",
+    "esercizi/esercitazione_4/traccia.md",
     "Untitled.md",
     "esercizi/esercitazione_3/traccia.md",
     "teoria/15_eccezioni.md",
@@ -138,7 +148,6 @@
     "teoria/14_polimorfismo.md",
     "teoria/1_intro.md",
     "teoria/12_objects_under_the_hood.md",
-    "teoria/11_modificatori.md",
-    "teoria/13_oop_basics.md"
+    "teoria/11_modificatori.md"
   ]
 }

@@ -1,0 +1,7 @@
+{
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.sourcePaths": [
+        "esercizi/esercitazione_4",
+        "esercizi/esercitazione_3"
+    ]
+}
