@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3b1e162dc693baf5",
+        "id": "ff0ffb729f018aae",
         "type": "tabs",
         "children": [
           {
-            "id": "3315409697e67f82",
+            "id": "726d85c13c27a1a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "esercizi/esercitazione_4/traccia.md",
+                "file": "teoria/17_gui.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6efbd41509ba9c6d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esercizi/esercitazione_4/traccia.md",
+                "file": "teoria/17_gui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esercizi/esercitazione_4/traccia.md",
+                "file": "teoria/17_gui.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "esercizi/esercitazione_4/traccia.md"
+                "file": "teoria/17_gui.md"
               }
             }
           }
@@ -137,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3315409697e67f82",
+  "active": "726d85c13c27a1a3",
   "lastOpenFiles": [
-    "teoria/16_input_output.md",
+    "teoria/java_naming_convention.png",
+    "Diagram.svg",
+    "teoria/17_gui.md",
     "esercizi/esercitazione_4/traccia.md",
+    "teoria/16_input_output.md",
     "Untitled.md",
     "esercizi/esercitazione_3/traccia.md",
     "teoria/15_eccezioni.md",
-    "teoria/java_naming_convention.png",
     "teoria/14_polimorfismo.md",
-    "teoria/1_intro.md",
-    "teoria/12_objects_under_the_hood.md",
-    "teoria/11_modificatori.md"
+    "teoria/1_intro.md"
   ]
 }
