@@ -87,3 +87,75 @@ frame.add(panel);
 
 Il pannello consente di inserire componenti grafici già pronti o di disegnare figure geometriche elementari.
 
+## Modello Hollywood
+Il produttore chiama l'attore al posto del contrario (iter canonico).
+
+```java
+public class MyPanel extends JPanel {
+	public void paint(Graphics g) {
+		super.paint(g);
+		// Mycode
+	}
+}
+```
+
+Vedi: [[https://deviq.com/principles/hollywood-principle]]
+
+Metodi di `Graphics`:
+- draw
+	- Image
+	- Line
+	- Rect
+	- Oval
+	- Arc
+	- PolyLine
+	- Polygon
+	- ...
+- fill
+	- Rect
+	- RoundRect
+	- 3DRect
+	- ...
+- get
+	- Color
+	- Font
+	- ...
+- set
+	- Color
+	- Font
+- copyArea()
+- clearRect()
+
+## Immagini
+Posso inserire immagini JPG:
+1. Creo oggetto `Image` attraverso il `Toolkit`
+2. Posso attendere il caricamento delle immagini con `MediaTracker`
+3. Disegno l'immagine dentro a `paint()` chiamando `drawImage()`
+
+```java
+Toolkit t = Toolkit.getDefualtToolkit();
+img1 = t.getImage("test1.png");
+img2 = t.getImage("test2.png");
+
+MeidaTracker m = new MediaTracker(this);
+m.addImage(img1);
+m.addImage(img2);
+
+try {
+	m.waitForAll()
+}
+catch (IOException e) {
+	;
+}
+
+graphics.drawImage(im1, 20, 20, null);
+// ...
+```
+
+## Grafici
+Funzioni per punti
+Attenzione: il sistema di coordinate dei pannelli non è quello che mi serve per avere gli assi cartesiani nel "verso" canonico.
+Usa un fattore di scala per dimensionare correttamente il grafico
+
+## Animazioni
+Usa un thread parallelo che renderizza i frame
