@@ -44,7 +44,7 @@ Quando ho un singolo acition listener per più oggetti posso fare:
 
 Il secondo metodo è pià versatile, perchè l'actioncommand vincola al contenuto specifico del componente, che potrebbe essere diversa in base alla lingua.
 
-# Eventi di finstra
+# Eventi di finestra
 Tutte le operazioni sulla finestra (chiusura, apertura, minimizzazione, ingrandimento) generano un `WindowEvent`. Vengono gestiti da oggetti che implementano `WindowListener`.
 
 L'evento più interessante è `windowClosing()` che di default nasconde la finestra, senza killare il processo. Devo quindi chiamare `System.exit()`; oltre a questo posso aggiungere procedure di finalizzazione come il salvataggio di un file.
