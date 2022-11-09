@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff0ffb729f018aae",
+        "id": "c56d261d6e31e1f4",
         "type": "tabs",
         "children": [
           {
-            "id": "726d85c13c27a1a3",
+            "id": "b30b17ec4bd6ed39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "teoria/17_gui.md",
+                "file": "teoria/18_componenti_notevoli.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoria/17_gui.md",
+                "file": "teoria/18_componenti_notevoli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoria/17_gui.md",
+                "file": "teoria/18_componenti_notevoli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoria/17_gui.md"
+                "file": "teoria/18_componenti_notevoli.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "726d85c13c27a1a3",
+  "active": "b30b17ec4bd6ed39",
   "lastOpenFiles": [
-    "teoria/9_documentazione.md",
+    "teoria/18_componenti_notevoli.md",
+    "esercizi/esercitazione_5/traccia.md",
+    "esercizi/esercitazione_4/traccia.md",
     "teoria/17_gui.md",
+    "teoria/9_documentazione.md",
     "teoria/java_naming_convention.png",
     "Diagram.svg",
-    "esercizi/esercitazione_4/traccia.md",
     "teoria/16_input_output.md",
     "Untitled.md",
-    "esercizi/esercitazione_3/traccia.md",
-    "teoria/15_eccezioni.md",
-    "teoria/14_polimorfismo.md"
+    "esercizi/esercitazione_3/traccia.md"
   ]
 }
