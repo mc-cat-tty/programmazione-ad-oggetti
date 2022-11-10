@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c56d261d6e31e1f4",
+        "id": "2af0fc31a2f48eb9",
         "type": "tabs",
         "children": [
           {
-            "id": "b30b17ec4bd6ed39",
+            "id": "525d5b00103e9b09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -136,7 +136,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b30b17ec4bd6ed39",
+  "active": "525d5b00103e9b09",
   "lastOpenFiles": [
     "teoria/18_componenti_notevoli.md",
     "esercizi/esercitazione_5/traccia.md",
