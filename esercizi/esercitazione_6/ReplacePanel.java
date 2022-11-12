@@ -1,6 +1,7 @@
 import javax.naming.event.EventDirContext;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.DocumentListener;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -15,9 +16,9 @@ public class ReplacePanel extends JPanel
   JButton replaceButton = new JButton("Sostituisci");
   JTextArea inputTextArea = new JTextArea(TEXT_AREA_ROWS, TEXT_AREA_COLS);
   JTextArea outputTextArea = new JTextArea(TEXT_AREA_ROWS, TEXT_AREA_COLS);
-  JLabel oldCharLabel = new JLabel("Vecchio Carattere: ");
+  JLabel oldCharLabel = new JLabel("Vecchia stringa: ");
   JTextField oldCharField = new JTextField(TEXT_FIELD_COLS);
-  JLabel newCharLabel = new JLabel("Nuovo carattere: ");
+  JLabel newCharLabel = new JLabel("Nuovo stringa: ");
   JTextField newCharField = new JTextField(TEXT_FIELD_COLS); 
 
   ReplacePanel() {
@@ -26,6 +27,8 @@ public class ReplacePanel extends JPanel
     outputTextArea.setEditable(false);
     outputTextArea.setBackground(Color.LIGHT_GRAY);
     replaceButton.addActionListener(this);
+    oldCharField.addActionListener(this);
+    newCharField.addActionListener(this);
 
     addComponents();
   }
@@ -36,11 +39,15 @@ public class ReplacePanel extends JPanel
   }
 
   private void eventDispatcher(Component comp) {
-    if (comp == replaceButton) {
+    if (
+      comp == replaceButton ||
+      comp == oldCharField  ||
+      comp == newCharField
+    ) {
       replaceCallback();
     }
-    // not so KISS
   }
+
 
   private void replaceCallback() {
     final String inputText = inputTextArea.getText();
