@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2af0fc31a2f48eb9",
+        "id": "06866544277085b8",
         "type": "tabs",
         "children": [
           {
-            "id": "ac8a0dc142fa810f",
+            "id": "7309b8cfb1e531d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "esercizi/esercitazione_6/traccia.md",
+                "file": "teoria/18_componenti_notevoli.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69e0cda4d98cb359",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoria/19_layout.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esercizi/esercitazione_6/traccia.md",
+                "file": "teoria/18_componenti_notevoli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esercizi/esercitazione_6/traccia.md",
+                "file": "teoria/18_componenti_notevoli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "esercizi/esercitazione_6/traccia.md"
+                "file": "teoria/18_componenti_notevoli.md"
               }
             }
           }
@@ -136,17 +148,17 @@
     "direction": "horizontal",
     "width": 279.5
   },
-  "active": "ac8a0dc142fa810f",
+  "active": "7309b8cfb1e531d2",
   "lastOpenFiles": [
+    "teoria/19_layout.md",
     "teoria/18_componenti_notevoli.md",
+    "esercizi/esercitazione_6/traccia.md",
     "esercizi/esercitazione_5/traccia.md",
     "esercizi/esercitazione_4/traccia.md",
     "teoria/17_gui.md",
     "teoria/9_documentazione.md",
     "teoria/java_naming_convention.png",
     "Diagram.svg",
-    "teoria/16_input_output.md",
-    "Untitled.md",
-    "esercizi/esercitazione_3/traccia.md"
+    "teoria/16_input_output.md"
   ]
 }

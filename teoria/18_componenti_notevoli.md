@@ -120,3 +120,99 @@ Per aggiungere ad un frame un window listener faccio:
 frame.addWindowListener(new Terminator());
 ```
 
+## JComboBox
+Componente che presenta una lista di opzioni, tra le quali si può cercare attraverso una casella di testo integrata nel compoenente.
+```java
+var combo = new JComboBox();
+combo.setEditable(true);  // di default non editabile
+```
+
+Chiama l'evento `ActionEvent` quando la selezione avviene.
+
+```java
+public void actionPerformed(ActionEvent e) {
+	String s = e.getSelectedItem();
+	switch (s) {
+		case "primo":
+		;
+		break;
+		// etc.
+	}
+}
+```
+
+```java
+for (int i=0; i<combo.getItemCount(); i++) {
+	// scorro gli elementi della compobox
+}
+```
+
+`combo.setMaximumRowCount(N)` limita la visualizzazione a N righe
+
+Comportamento: solitamente se la voce scelta non è presente nella lista, viene aggiunta in coda ad essa.
+
+## JTable
+Permette la visualizzazione e il salvataggio dei dati in forma tabellare.
+Il pattern utilizzato per la rappresentazione tabellare è suddiviso in:
+- modello: qualunque classe che implementi `interface TableModel`
+- vista: `class JTable`
+
+Questo disaccoppiamento rende possibile modificare uno dei due elementi del pattern in maniera indipendente.
+
+Per comodità Java mette a disposizione la classe astratta `AbstractTableModel`, che implementa `TableModel` ed implementa la maggior parte dei metodi, tranne:
+- `public int getRowCount()`
+- `public int getColumnCount()`
+- `public Object getValueAt(int row, int column)`
+
+Il modello definisce l'intestazione delle colonne.
+
+Esempio tabelline:
+```java
+public Object getValueAt(int row, int col) {
+	return new Integer((row+1)*(col+1));
+}
+```
+
+Oltre ai 3 metodi astratti esistono anche:
+- `public String getColumnName(int col)` per la crezione delle intestazioni
+- `public boolean isCellEditable(int row, int col)` -> se non c'è interazione ritorno sempre false
+
+```java
+TableModel modello = new MyTableModel();  // Attenzione: esempio di polimorfismo, TableModel è un'interfaccia
+JTable t = new JTable(modello);
+panel.add(t);
+```
+
+Di base una modifica sulla vista non viene propagata verso i dati.
+
+Posso memorizzare dati tabellare in modo dinamico all'interno di una struttura come `Vector`.
+Così facendo il numero di colonne corrisponde al numero di campi della struttura che uso per rappresentare ogni entry. Il numero di righe corrisponde al numero di entry contenute nel vettore. Il valore di ogni cella, determinato da riga e colonna, viene scelto come `vector.getValueAt(row).unacolonna` in base al numero di colonna passato al metodo.
+
+### Propagazione modifiche
+Per modificare una cella nel modello devo implementare `public void setValueAt(Object value, int row, int col)`, dove value contiene il nuovo valore inserito dall'utente e che deve essere modificato.
+
+Dentro a questo metodo controllo riga e colonna della cella modificata.
+Alla fine delle modifiche, devono ridisegnare la tabella con `fireDataChanged()`
+
+# Menu
+## JMenuItem
+Rappresenta una voce del menù
+## JMenu
+Menù in sè
+## JMenuBar
+Barra dei menù
+
+Esempio:
+```java
+JMenu m = new JMenu("Menu title");
+m.add(
+	new JMenuItem("voce 1")
+);
+m.add(
+	new JMenuItem("voce 2")
+);
+JMenuBar b = new JMenuBar();
+b.add(m);
+panel.setJMenuBar(b);
+```
+
