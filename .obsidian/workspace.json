@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d19d82f1aaca0a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "teoria/21_strutture_dati_util.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoria/20_costrutti_avanzati.md",
+                "file": "teoria/21_strutture_dati_util.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoria/20_costrutti_avanzati.md",
+                "file": "teoria/21_strutture_dati_util.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoria/20_costrutti_avanzati.md"
+                "file": "teoria/21_strutture_dati_util.md"
               }
             }
           }
@@ -136,10 +149,10 @@
     "direction": "horizontal",
     "width": 279.5
   },
-  "active": "7be3a4736c1e6fb0",
+  "active": "9d19d82f1aaca0a7",
   "lastOpenFiles": [
-    "esercizi/progetto/traccia.pdf",
     "teoria/20_costrutti_avanzati.md",
+    "esercizi/progetto/traccia.pdf",
     "esercizi/progetto/note.md",
     "teoria/19_layout.md",
     "teoria/18_componenti_notevoli.md",
