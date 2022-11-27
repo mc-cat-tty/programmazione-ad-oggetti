@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0595d69b311664a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "esercizi/esercitazione_8/traccia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "teoria/21_strutture_dati_util.md",
+                "file": "esercizi/esercitazione_8/traccia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "teoria/21_strutture_dati_util.md",
+                "file": "esercizi/esercitazione_8/traccia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "teoria/21_strutture_dati_util.md"
+                "file": "esercizi/esercitazione_8/traccia.md"
               }
             }
           }
@@ -149,8 +161,10 @@
     "direction": "horizontal",
     "width": 279.5
   },
-  "active": "9d19d82f1aaca0a7",
+  "active": "0595d69b311664a0",
   "lastOpenFiles": [
+    "esercizi/Untitled.md",
+    "teoria/21_strutture_dati_util.md",
     "teoria/20_costrutti_avanzati.md",
     "esercizi/progetto/traccia.pdf",
     "esercizi/progetto/note.md",
@@ -158,8 +172,6 @@
     "teoria/18_componenti_notevoli.md",
     "esercizi/esercitazione_6/traccia.md",
     "esercizi/esercitazione_5/traccia.md",
-    "esercizi/esercitazione_4/traccia.md",
-    "teoria/17_gui.md",
-    "teoria/9_documentazione.md"
+    "esercizi/esercitazione_4/traccia.md"
   ]
 }
