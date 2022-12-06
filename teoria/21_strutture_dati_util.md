@@ -67,11 +67,27 @@ Il vector concentra al suo interno due comportamenti: lock + struttura.
 
 La politica di ridimensionamento può cambiare nel tempo, il programmatore non deve basare il suo software su questo.
 
+Questa struttura dati è obsoleta, ora si usa `synchronizedList` insieme alla keywork `synchronized`
+
 ## Set
 Ogni elemento è unico, come se appartenesse ad un insieme matematico.
 
 ### SortedSet
 Interfaccia che rappresenta un insieme ordinato (di default con ordine naturale degli elementi)
+
+Gli oggetti che si vogliono ordinare devono essere conformi all'interfaccia `Comparable<T>` e implementare `compareTo(T)`.
+Ma non sempre è possibile ridefinire la classe che si vuole contenere nel set.
+
+Un'alternativa fornita da Java consente di usare un comparatore esterno.
+Agli oggetti di questa classe (o sue sottoclassi) è possibile passare un oggetto con interfaccia `Comparator c` che stabilisce l'ordinamento degli elementi del set, nel caso in cui lo si voglia diverso da quello naturale. 
+
+```java
+public class StudenteComparator implements Comparator<Studente> {
+	public int Compare(Studente s1, Studente s2) {
+		return s1.getMatricola() - s2.getMatricola();
+	}
+}
+```
 
 #### TreeSet
 Sorted set che mantiene l'ordinamento con un albero bilanciato.
@@ -83,6 +99,8 @@ mantiene una tabella hash.
 Gli elementi sono scorsi rispetto all'ordine di inserimento.
 
 # Map
+Sono strutture dati associative, non sequenziali.
+
 ## SortedMap
 Interfaccia che rappresenta una mappa ordinata per chiave, con ordine naturale.
 
@@ -120,9 +138,35 @@ while (ds.hasNext()) {
 }
 ```
 
-# BestPractices
+## BestPractices
 È pericoloso modificare una struttura dati su cui si sta iterando -> risulati imprevedibili.
 
 La cosa migliore è usare metodo come `add()` e `remove()`:
 - `Iterator.remove()`
 - `ListIterator.add()`
+
+# Algoritmi
+## Collections
+La classe `java.util.Collections` (attenzione: non è l'if `Collection`) mette a disposizione una serie di algoritmi generici per lavorare sulle liste.
+Questi algoritmi sono forniti tramite metodi statici:
+- `sort( merge sort, nlog(n)
+- `binarySearch`
+- `shuffle`
+- `reverse`
+- `rotate`
+- `min` e `max`
+
+## Arrays
+La classe `java.util.Arrays` mette a disposizione degli algoritmi per lavorare specificatamente con gli Array (sempre tramite metodi statici):
+- `sort`
+- `binarySearch`
+- `compare`
+- `copyOf`
+- `equals`
+
+Esempio:
+```java
+// Ordinamento di una lista di studenti in ordine naturale
+List<Studente> studenti = new ArrayList<Studente>();
+Collections.sort(studenti);
+```
