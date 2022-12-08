@@ -13,7 +13,7 @@ public class WarmUpAnimation implements Animator{
       !rig.moveRightArm(3) &
       !rig.moveLeftLeg(1) &
       !rig.moveRightLeg(1) &
-      !rig.moveY(2)
+      !rig.moveY(-3)
     ) {
       up = false;
     }
@@ -24,7 +24,7 @@ public class WarmUpAnimation implements Animator{
       !rig.moveRightArm(-3) &
       !rig.moveLeftLeg(-1) &
       !rig.moveRightLeg(-1) &
-      !rig.moveY(-4)
+      !rig.moveY(2)
     ) {
       up = true;
     }
