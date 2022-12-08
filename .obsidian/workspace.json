@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "428556e6128238b3",
+        "id": "b35fff17fb74ee67",
         "type": "tabs",
         "children": [
           {
-            "id": "7be3a4736c1e6fb0",
+            "id": "30ad4fc4ac01f9f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoria/20_costrutti_avanzati.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d19d82f1aaca0a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "teoria/21_strutture_dati_util.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0595d69b311664a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "esercizi/esercitazione_8/traccia.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esercizi/esercitazione_8/traccia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esercizi/esercitazione_8/traccia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "esercizi/esercitazione_8/traccia.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,17 +128,17 @@
     "direction": "horizontal",
     "width": 279.5
   },
-  "active": "0595d69b311664a0",
+  "active": "30ad4fc4ac01f9f5",
   "lastOpenFiles": [
-    "esercizi/Untitled.md",
+    "teoria/23_approfondimenti.md",
+    "teoria/22_thread.md",
+    "Screenshot_20221205_122348.png",
     "teoria/21_strutture_dati_util.md",
     "teoria/20_costrutti_avanzati.md",
+    "esercizi/esercitazione_8/traccia.md",
+    "esercizi/Untitled.md",
     "esercizi/progetto/traccia.pdf",
     "esercizi/progetto/note.md",
-    "teoria/19_layout.md",
-    "teoria/18_componenti_notevoli.md",
-    "esercizi/esercitazione_6/traccia.md",
-    "esercizi/esercitazione_5/traccia.md",
-    "esercizi/esercitazione_4/traccia.md"
+    "teoria/19_layout.md"
   ]
 }
