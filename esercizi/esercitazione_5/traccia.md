@@ -49,3 +49,4 @@ public class Animatore extends TimerTask {
 }
 ```
 
+Vedi: https://docs.oracle.com/javase/tutorial/2d/overview/index.html
