@@ -1,3 +1,5 @@
+# Benchmark Vector vs ArrayList
+
 In questa esercitazione useremo le strutture dati templetizzate di libreria.
 
 Micro benchmarking -> ad esempio le prestazioni tra `Vector` e `ArrayList`
